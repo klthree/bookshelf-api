@@ -11,11 +11,11 @@
 /.env*
 
 # Ignore all logfiles and tempfiles.
+/log/.keep
 /log/*
 /tmp/*
 !/log/.keep
 !/tmp/.keep
-
 
 # Ignore pidfiles, but keep the directory.
 /tmp/pids/*
