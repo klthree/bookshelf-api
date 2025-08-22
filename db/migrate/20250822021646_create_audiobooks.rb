@@ -7,7 +7,6 @@ class CreateAudiobooks < ActiveRecord::Migration[8.0]
       t.date :year_published
       t.time :length
       t.string :publisher
-      t.text :genres, array: true
 
       t.timestamps
     end
